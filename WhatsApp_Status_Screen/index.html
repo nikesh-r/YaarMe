@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Status</title>
+		<link rel="icon" href ="./res/play-button.svg">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./reset.css">
+		<link rel="stylesheet" href ="./main.css">
+	</head>
+	<body>
+		<div class="main-container">
+			<header class="header">
+				<nav class="navbar">
+					<img class="back" src="./res/leftarrow.svg" alt="back-arrow">
+					<div class="user">
+						<p class="user-name">XYZ ABC</p>
+						<p class="user-time">Today, 11.05 AM</p>
+					</div>
+					<img src="./res/more.svg" alt="more-options" class="more">
+				</nav>
+			</header>
+			<div class="progress-bar">
+				<div class="progress-length">
+					<div class="progress-reached bar-left bar--initial"></div>
+				</div>
+				<div class="progress-length">
+					<div class="progress-reached bar-right bar--initial"></div>
+				</div>
+			</div>
+			<div class="picture">
+				<img src="./res/6.jpg" alt="" class="picture-item pic-left visible">
+				<img src="./res/10.jpg" alt="" class="picture-item pic-right">
+
+				<div class="btn-left" onclick="onBackwardClick()"></div>
+				<div class="btn-right" onclick="onForwardClick()"></div>
+			</div>
+			<footer class="footer">
+				<p class="up">^</p>
+				<p class="reply">reply</p>
+			</footer>
+			
+		</div>
+		<script src="./main.js"></script>
+	</body>
+</html>

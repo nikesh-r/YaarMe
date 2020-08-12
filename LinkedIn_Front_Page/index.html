@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LinkedIn</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="linkedin.png" />
+		<link rel="stylesheet" href="./reset.css">
+		<link rel="stylesheet" href="./main.css">
+	</head>
+	<body>
+
+		<div id="sidebar">
+			<div href="" class="sidebar-head">
+				<img id="pfp" class="sidebar-head-items" src="./res/pfp1.jpg">
+				<img id="moon" class="sidebar-head-items" src="./res/tele/moon.svg" onclick="closeSideMenu()">
+				<p id="info" class="sidebar-head-items">Nikesh<br><span>+91 7415474294</span></p>
+				<img id="arrow" class="sidebar-head-items" src="./res/tele/up-chevron.svg" onclick="toggleUserAccount()">
+			</div>
+
+			<div class="sidebar-body">
+
+				<div class="sidebar-body-items js-toggle-details hidden">
+					<img id="user" src="./res/pfp1.jpg">
+					<span>User One</span>
+				</div>
+				<div class="sidebar-body-items js-toggle-details hidden">
+					<img src="./res/tele/plus.svg">
+					<span>Add Account</span>
+				</div>
+
+				<hr class="js-toggle-details hidden">
+
+				<div class="sidebar-body-items">
+					<img src="./res/tele/groupuser.svg">
+					<span>New Group</span>
+				</div>
+				<div class="sidebar-body-items">
+					<img src="./res/tele/lock.svg">
+					<span>New Secret Chat</span>
+				</div>
+				<div class="sidebar-body-items">
+					<img src="./res/tele/megaphone.svg">
+					<span>New Channel</span>
+				</div>
+				<div class="sidebar-body-items">
+					<img src="./res/tele/user.svg">
+					<span>Contacts</span>
+				</div>
+				<div class="sidebar-body-items">
+					<img src="./res/tele/phone.svg">
+					<span>Calls</span>
+				</div>
+				<div class="sidebar-body-items">
+					<img src="./res/tele/bookmark.svg">
+					<span>Saved Messages</span>
+				</div>
+				<div class="sidebar-body-items">
+					<img src="./res/tele/settings.svg">
+					<span>Settings</span>
+				</div>
+
+				<hr>
+
+				<div class="sidebar-body-items">
+					<img src="./res/tele/add-user.svg">
+					<span>Invite Friends</span>
+				</div>
+				<div class="sidebar-body-items">
+					<img src="./res/tele/question.svg">
+					<span>LinkedIn FAQ</span>
+				</div>
+			</div>
+		</div>
+
+
+		<header id="header">
+
+			<div id="mob-navbar">
+
+				<div id="display-pic-container" onclick="openSideMenu()">
+					<!-- <a href=""><img id="avatar" src="./res/pfp1.jpg"></a> -->
+					<a href="#"><img id="menu" src="./res/menu.svg"></a>
+				</div>
+				
+				<div id="search-bar">
+					<img id="search-icon" src="res/search.svg">
+					<input type="text" id="search-text" placeholder="Search">
+					<a href="#"><img id="collection-icon" src="./res/board.svg"></a>
+				</div>
+				<div id="direct-msg-container">
+					<a href="#"><img id="direct-msg-icon" src="./res/comment.svg"></a>
+				</div>
+			</div>
+
+			<div id="desk-navbar">
+				<div id="desk-search">
+					<a href="#header" id="desk-logo"><img src="./res/desktop/linkedin.png"></a>
+					<div id="desk-search-bar">
+						<img id="desk-search-icon" src="res/desktop/search.svg">
+						<input type="text" id="desk-search-text" placeholder="Search">
+					</div>
+				</div>
+				<div id="desk-nav-controls">
+					<div id="desk-home" class="desk-nav-items">
+						<a href="#" ><img src="./res/desktop/iconHome.svg"></a>
+					</div>
+					<div id="desk-people" class="desk-nav-items">
+						<a href="#" ><img src="./res/desktop/iconPeople.svg"></a>
+					</div>
+					<div id="desk-portfolio" class="desk-nav-items">
+						<a href="#" ><img src="./res/desktop/iconPortfolio.svg"></a>
+					</div>
+					<div id="desk-chat" class="desk-nav-items">
+						<a href="#" ><img src="./res/desktop/comment.svg"></a>
+					</div>
+					<div id="desk-notification" class="desk-nav-items">
+						<a href="#" ><img src="./res/desktop/iconNotification.svg"></a>
+					</div>
+					<div id="desk-profile" class="desk-nav-items">
+						<a href="#" ><img src="./res/desktop/pfp2.jpg"></a>
+					</div>
+					<div id="desk-collection" class="desk-nav-items">
+						<a href="#" ><img src="./res/desktop/board.svg"></a>
+					</div>
+					<div id="desk-premium" class="desk-nav-items">
+						<a href="#" ><p>Try Premium Free<br>for 1 Month</p></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="main" onclick="closeSideMenu()">
+			<div id="desk-before-whitespace"></div>
+			<div id="cards">
+				<div class="company">
+					<div class="liked-commented-by">
+						<p>
+							<var><a href="">Kaushik Mishra</a></var> and <var><a href="">Ayush Jain</a></var> and 272 other connections follow <var><a href="">LinkedIn Marketing Solutions</a></var>
+						</p>
+						<button>
+							<img src="./res/dots.svg">
+						</button>
+					</div>
+					<div class="company-container">
+						<div class="company-icon">
+							<a href="">
+								<img src="./res/lms.png">
+							</a>
+						</div>
+						<div class="company-desc">
+							<a href=""><div class="company-name">LinkedIn Marketing Solutions</div></a>
+							<div class="following">4,259,248 followers</div>
+							<div class="followers">Promoted</div>
+						</div>
+					</div>
+					<div class="post-description">
+						<p>
+							Leverage your LinkedIn Page to its full potential. Boost engagement of a post with $50 in free LinkedIn ad credits.
+						</p>
+					</div>
+					<div class="picture-video">
+						<img src="./res/laptop.jpg"></img>
+					</div>
+					<div class="interaction">
+						<div class="response">
+							<img id="like" class="response-components" src="./res/like.svg">
+							<img id="clap" class="response-components" src="./res/clap.svg">
+							<img id="heart" class="response-components" src="./res/heart.svg">
+							<div id="like-count" class="response-components">18,266</div>
+							<div id="comment-count" class="response-components">527 comments</div>
+						</div>
+						<hr>
+						<div class="respond">
+							<button class="respond-button">
+								<img id="like-img" class="button-img" src="./res/makeLike.svg">
+								<div id="like-text" class="button-text">Like</div>
+							</button>
+							<button class="respond-button">
+								<img id="comment-img" class="button-img" src="./res/makeComment.svg">
+								<div id="comment-text" class="button-text">Comment</div>
+							</button>
+							<button class="respond-button">
+								<img id="share-img" class="button-img" src="./res/makeShare.svg">
+								<div id="share-text" class="button-text">Share</div>
+							</button>
+							<button class="respond-button">
+								<img id="send-img" class="button-img" src="./res/makeSend.svg">
+								<div id="send-text" class="button-text">Send</div>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="user">
+					<div class="liked-commented-by">
+						<p>
+							<var><a href="">Taniya Rane</a></var> commented on this.
+						</p>
+						<button>
+							<img src="./res/dots.svg">
+						</button>
+					</div>
+					<div class="user-container">
+						<div class="user-icon">
+							<a href=""><img class="user-icon-img" src="./res/pfp2.jpg"></a>
+						</div>
+						<div class="user-desc">
+							<a href=""><div class="user-name">TARUN KAUSHIK<p>&nbsp;&bull; 1st</p></div></a>
+							<div class="designation">Founder and CEO at FailureSuno App</div>
+							<div class="posted-on">3d &bull; Edited &bull;&nbsp; <img src="./res/globe.svg"></div>
+						</div>
+					</div>
+					<div class="post-description">
+						<p>
+							How many people are there who literally want to share there life story with other?
+						</p>
+					</div>
+					<div class="picture-video">
+						<img src="./res/writing.jpg" alt="people sitting on table writing"></img>
+					</div>
+					<div class="interaction">
+						<div class="response">
+							<img id="like" class="response-components" src="./res/like.svg">
+							<img id="clap" class="response-components" src="./res/clap.svg">
+							<img id="heart" class="response-components" src="./res/heart.svg">
+							<div id="like-count" class="response-components">341</div>
+							<div id="comment-count" class="response-components">25 comments</div>
+						</div>
+						<hr>
+						<div class="respond">
+							<button class="respond-button">
+								<img id="like-img" class="button-img" src="./res/makeLike.svg">
+								<div id="like-text" class="button-text">Like</div>
+							</button>
+							<button class="respond-button">
+								<img id="comment-img" class="button-img" src="./res/makeComment.svg">
+								<div id="comment-text" class="button-text">Comment</div>
+							</button>
+							<button class="respond-button">
+								<img id="share-img" class="button-img" src="./res/makeShare.svg">
+								<div id="share-text" class="button-text">Share</div>
+							</button>
+							<button class="respond-button">
+								<img id="send-img" class="button-img" src="./res/makeSend.svg">
+								<div id="send-text" class="button-text">Send</div>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<footer id="nav-bar">
+					<button id="btn-home" class="nav-button">
+						<img id="home-icon" src="./res/iconHome.svg">
+					</button>
+					<button id="btn-people" class="nav-button">
+						<img id="people-icon" src="./res/iconPeople.svg">
+					</button>
+					<button id="btn-add" class="nav-button">
+						<img id="add-icon" src="./res/iconAdd.svg">
+					</button>
+					<button id="btn-notification" class="nav-button">
+						<img id="notification-icon" src="./res/iconNotification.svg">
+					</button>
+					<button id="btn-portfolio" class="nav-button">
+						<img id="portfolio-icon" src="./res/iconPortfolio.svg">
+					</button>
+				</footer>
+			</div>
+			<div id="desk-after-whitespace"></div>
+		</div>
+	<script src="./script.js"></script>
+	</body>
+</html>

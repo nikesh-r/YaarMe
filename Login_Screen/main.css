@@ -1,0 +1,213 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+	--my-font: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+
+.body-container {
+    background-color: whitesmoke;
+}
+
+header.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+    font-family: var(--my-font);
+    font-size: x-large;
+    background-color: rgba(245, 160, 174, 0.6);
+}
+
+.comp-logo {
+    height: 48px;
+}
+
+.comp-name {
+    margin-left: 10px;
+}
+
+.create-account {
+    margin-left: auto;
+}
+
+
+.main-container {
+    min-width: 450px;
+    width: 60%;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.login-heading {
+    margin: 20px 0;
+    padding: 0px 10px;
+    font-family: var(--my-font);
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.login-container {
+    width: 60%;
+    min-width: 450px;
+    border: 1px solid lightgrey;
+    /* border-radius: 6px; */
+    padding: 20px 20px;
+    background: white;
+}
+
+.email, .password {
+    font-size: larger;
+    font-family: Helvetica;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input.email-input, .password-input {
+    padding: 5px;
+    display: block;
+    margin: 10px 0;
+    flex: 1;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+label.email-label, .password-label {
+    padding: 10px 0;
+}
+
+.submit {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: large;
+    font-family: var(--my-font);
+}
+
+button.btn-submit {
+    outline: none;
+    border: none;
+    background: inherit;
+    font-size: large;
+    font-family: var(--my-font);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.btn-submit:hover {
+	/* font-size: 19px; */
+	background: rgba(245, 160, 174, 0.6);
+	border-radius: 5px;
+}
+
+.submit p a{
+    color: blue;
+}
+
+p.login-tos {
+    font-family: var(--my-font);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login-tos a {
+    color: royalblue;
+}
+
+.or {
+    margin: -8.5px 0;
+    z-index: 1;
+    background: white;
+    padding: 0 10px;
+}
+
+.alt-login {
+    min-width: 450px;
+    width: 60%;
+    border: 1px solid lightgrey;
+    /* border-radius: 6px; */
+    /* margin-bottom: 20px; */
+    background: white;
+
+}
+
+.login-google, .login-facebook, .login-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    margin: 20px 30px;
+    padding: 20px;
+    cursor: pointer;
+}
+.login-google:hover{
+    background-color: rgba(255, 160, 122, 0.5);
+}
+.login-facebook:hover{
+    background-color: rgba(0, 89, 255, 0.4);
+}
+.login-twitter:hover {
+    background-color: rgb(0, 204, 255, 0.4);
+
+}
+.img-g, .img-f, .img-t {
+    height: 24px;
+    /* margin-left: 24px; */
+}
+
+.p-g, .p-f, .p-t {
+    font-family: var(--my-font);
+    font-size: large;
+    padding: 0px 10px;
+    /* border: 1px solid lightgrey; */
+}
+
+.signup {
+    min-width: 450px;
+    width: 60%;
+    margin: 0px 0px 40px;
+    font-family: var(--my-font);
+    text-align: center;
+    font-size: larger;
+    border: 1px solid lightgrey;
+    /* border-radius: 6px; */
+    padding: 30px 0;
+    background: white;
+}
+.p-signup {
+    margin-bottom: 20px;
+}
+.a-signup {
+    margin-bottom: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.a-signup:hover {
+    color: darkslategrey;
+    text-decoration: underline;
+    font-size: larger;
+}

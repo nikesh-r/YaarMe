@@ -1,0 +1,182 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+	--my-font: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+
+.body-container {
+    background-color: whitesmoke;
+}
+
+header.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+    font-family: var(--my-font);
+    font-size: x-large;
+    background-color: rgba(245, 160, 174, 0.6);
+}
+
+.comp-logo {
+    height: 48px;
+}
+
+.comp-name {
+    margin-left: 10px;
+}
+
+.create-account {
+    margin-left: auto;
+}
+
+
+.main-container {
+    min-width: 450px;
+    width: 60%;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.login-heading {
+    margin: 20px 0;
+    padding: 0px 10px;
+    font-family: var(--my-font);
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.login-container {
+    width: 60%;
+    min-width: 450px;
+    border: 1px solid lightgrey;
+    /* border-radius: 6px; */
+    padding: 20px 20px;
+    background: white;
+}
+
+.name, .email, .birthday, .address, .password, .repeat-password {
+    font-size: larger;
+    font-family: Helvetica;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.pin-country {
+	font-size: larger;
+	font-family: Helvetica;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.name-label, .email-label, .birthday-label, .address-label, .pin-label, .country-label, .password-label, .repeat-password-label {
+	padding: 10px 0;
+}
+
+.name-input, .email-input, .birthday-input, .address-input, .pin-input, .country-input, .password-input, .repeat-password-input {
+    padding: 5px;
+    display: block;
+    margin: 10px 0;
+    flex: 1;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+	font-size: larger;
+    /* font-weight: 400; */
+}
+.pin-input, .country-input {
+	flex: 0;
+	width: 90%;
+	margin-top: 20px;
+}
+.country-input option {
+	font-size: medium;
+}
+
+.submit {
+    margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: var(--my-font);
+}
+
+button.btn-submit {
+    outline: none;
+    border: 1px solid grey;
+    background: inherit;
+    font-size: large;
+    font-family: var(--my-font);
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+button.btn-submit:hover {
+	font-size: 19px;
+	border: 1px solid rgba(220, 20, 60, 0.39);
+	background: rgba(245, 160, 174, 0.6);
+}
+
+p.login-tos {
+    font-family: var(--my-font);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login-tos a {
+    color: royalblue;
+}
+
+.or {
+    margin: -8.5px 0;
+    z-index: 1;
+    background: white;
+    padding: 0 10px;
+}
+
+.signup {
+    min-width: 450px;
+    width: 60%;
+    margin: 0px 0px 40px;
+    font-family: var(--my-font);
+    text-align: center;
+    font-size: larger;
+    border: 1px solid lightgrey;
+    /* border-radius: 6px; */
+    padding: 30px 0;
+    background: white;
+}
+.p-signup {
+    margin-bottom: 20px;
+}
+.a-signup {
+    margin-bottom: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.a-signup:hover {
+    color: darkslategrey;
+    text-decoration: underline;
+    font-size: larger;
+}

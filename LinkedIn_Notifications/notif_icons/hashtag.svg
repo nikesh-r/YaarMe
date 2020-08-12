@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" id="circle-hashtag-medium" data-supported-dps="56x56">
+  <circle cx="28" cy="28" r="21" fill="#e6f7ff"/>
+  <path d="M28 7A21 21 0 117 28 21 21 0 0128 7m0-3a24 24 0 1024 24A24 24 0 0028 4z" fill="#006097"/>
+  <path fill="#0091ca" d="M30 18h3v20h-3zM23 18h3v20h-3z"/>
+  <path fill="#0091ca" d="M38 30v3H18v-3zM38 23v3H18v-3z"/>
+</svg>
